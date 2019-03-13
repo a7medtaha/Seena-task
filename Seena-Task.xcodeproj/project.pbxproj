@@ -12,9 +12,25 @@
 		8140512822396BC100EF4E36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8140512622396BC100EF4E36 /* Main.storyboard */; };
 		8140512A22396BC300EF4E36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8140512922396BC300EF4E36 /* Assets.xcassets */; };
 		8140512D22396BC300EF4E36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8140512B22396BC300EF4E36 /* LaunchScreen.storyboard */; };
+		8140513922396D3C00EF4E36 /* ViewControllerEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8140513822396D3C00EF4E36 /* ViewControllerEx.swift */; };
+		81B3C5A8223981D7007E29CB /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B3C5A7223981D7007E29CB /* TableViewCell.swift */; };
+		81B3C5BA22398223007E29CB /* FancyImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B3C5AA22398223007E29CB /* FancyImage.swift */; };
+		81B3C5BD22398223007E29CB /* UIButtonX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B3C5AD22398223007E29CB /* UIButtonX.swift */; };
+		81B3C5BE22398223007E29CB /* UILabelX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B3C5AE22398223007E29CB /* UILabelX.swift */; };
+		81B3C5C322398224007E29CB /* UIImageViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B3C5B322398223007E29CB /* UIImageViewX.swift */; };
+		81B3C5C422398224007E29CB /* UIViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B3C5B422398223007E29CB /* UIViewX.swift */; };
+		81D79A5722396E9F00F09D91 /* apiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D79A5622396E9F00F09D91 /* apiManager.swift */; };
+		81D79A5922396EB300F09D91 /* URLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D79A5822396EB300F09D91 /* URLs.swift */; };
+		81D79A5D22396FCA00F09D91 /* Response_Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D79A5A22396FCA00F09D91 /* Response_Base.swift */; };
+		81D79A5F22396FCA00F09D91 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D79A5C22396FCA00F09D91 /* Response.swift */; };
+		81D79A62223970AA00F09D91 /* ResponseError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D79A60223970AA00F09D91 /* ResponseError.swift */; };
+		81D79A6522397B0700F09D91 /* HelpEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D79A6422397B0700F09D91 /* HelpEx.swift */; };
+		D423FC362EEC2EF05644D6BC /* Pods_Seena_Task.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6301A74A734DE5B699E5438 /* Pods_Seena_Task.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		00ECE765F7B56002919F1ECC /* Pods-Seena-Task.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Seena-Task.release.xcconfig"; path = "Pods/Target Support Files/Pods-Seena-Task/Pods-Seena-Task.release.xcconfig"; sourceTree = "<group>"; };
+		682AE0DDEC37A1210428A59D /* Pods-Seena-Task.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Seena-Task.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Seena-Task/Pods-Seena-Task.debug.xcconfig"; sourceTree = "<group>"; };
 		8140511F22396BC100EF4E36 /* Seena-Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Seena-Task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8140512222396BC100EF4E36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8140512422396BC100EF4E36 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +38,20 @@
 		8140512922396BC300EF4E36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8140512C22396BC300EF4E36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8140512E22396BC300EF4E36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8140513822396D3C00EF4E36 /* ViewControllerEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerEx.swift; sourceTree = "<group>"; };
+		81B3C5A7223981D7007E29CB /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		81B3C5AA22398223007E29CB /* FancyImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyImage.swift; sourceTree = "<group>"; };
+		81B3C5AD22398223007E29CB /* UIButtonX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonX.swift; sourceTree = "<group>"; };
+		81B3C5AE22398223007E29CB /* UILabelX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabelX.swift; sourceTree = "<group>"; };
+		81B3C5B322398223007E29CB /* UIImageViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewX.swift; sourceTree = "<group>"; };
+		81B3C5B422398223007E29CB /* UIViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewX.swift; sourceTree = "<group>"; };
+		81D79A5622396E9F00F09D91 /* apiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = apiManager.swift; sourceTree = "<group>"; };
+		81D79A5822396EB300F09D91 /* URLs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLs.swift; sourceTree = "<group>"; };
+		81D79A5A22396FCA00F09D91 /* Response_Base.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Response_Base.swift; sourceTree = "<group>"; };
+		81D79A5C22396FCA00F09D91 /* Response.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		81D79A60223970AA00F09D91 /* ResponseError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseError.swift; sourceTree = "<group>"; };
+		81D79A6422397B0700F09D91 /* HelpEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpEx.swift; sourceTree = "<group>"; };
+		C6301A74A734DE5B699E5438 /* Pods_Seena_Task.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Seena_Task.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +59,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D423FC362EEC2EF05644D6BC /* Pods_Seena_Task.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		75157396E5D2B607D6F8095C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C6301A74A734DE5B699E5438 /* Pods_Seena_Task.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8140511622396BC100EF4E36 = {
 			isa = PBXGroup;
 			children = (
 				8140512122396BC100EF4E36 /* Seena-Task */,
 				8140512022396BC100EF4E36 /* Products */,
+				C4E1009AA4B9AD2E4D61B363 /* Pods */,
+				75157396E5D2B607D6F8095C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +95,76 @@
 		8140512122396BC100EF4E36 /* Seena-Task */ = {
 			isa = PBXGroup;
 			children = (
+				81B3C5A922398223007E29CB /* IBDesgnable */,
+				8140513722396D0C00EF4E36 /* Service */,
+				8140513622396D0500EF4E36 /* View */,
+				8140513522396CFB00EF4E36 /* Model */,
+				8140513422396CBF00EF4E36 /* Controller */,
 				8140512222396BC100EF4E36 /* AppDelegate.swift */,
-				8140512422396BC100EF4E36 /* ViewController.swift */,
 				8140512622396BC100EF4E36 /* Main.storyboard */,
 				8140512922396BC300EF4E36 /* Assets.xcassets */,
 				8140512B22396BC300EF4E36 /* LaunchScreen.storyboard */,
 				8140512E22396BC300EF4E36 /* Info.plist */,
 			);
 			path = "Seena-Task";
+			sourceTree = "<group>";
+		};
+		8140513422396CBF00EF4E36 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8140512422396BC100EF4E36 /* ViewController.swift */,
+				8140513822396D3C00EF4E36 /* ViewControllerEx.swift */,
+				81D79A6422397B0700F09D91 /* HelpEx.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8140513522396CFB00EF4E36 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				81D79A60223970AA00F09D91 /* ResponseError.swift */,
+				81D79A5A22396FCA00F09D91 /* Response_Base.swift */,
+				81D79A5C22396FCA00F09D91 /* Response.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8140513622396D0500EF4E36 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				81B3C5A7223981D7007E29CB /* TableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8140513722396D0C00EF4E36 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				81D79A5822396EB300F09D91 /* URLs.swift */,
+				81D79A5622396E9F00F09D91 /* apiManager.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		81B3C5A922398223007E29CB /* IBDesgnable */ = {
+			isa = PBXGroup;
+			children = (
+				81B3C5AA22398223007E29CB /* FancyImage.swift */,
+				81B3C5AD22398223007E29CB /* UIButtonX.swift */,
+				81B3C5AE22398223007E29CB /* UILabelX.swift */,
+				81B3C5B322398223007E29CB /* UIImageViewX.swift */,
+				81B3C5B422398223007E29CB /* UIViewX.swift */,
+			);
+			path = IBDesgnable;
+			sourceTree = "<group>";
+		};
+		C4E1009AA4B9AD2E4D61B363 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				682AE0DDEC37A1210428A59D /* Pods-Seena-Task.debug.xcconfig */,
+				00ECE765F7B56002919F1ECC /* Pods-Seena-Task.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +174,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8140513122396BC300EF4E36 /* Build configuration list for PBXNativeTarget "Seena-Task" */;
 			buildPhases = (
+				AA88D7E3F8FB23E9862B524D /* [CP] Check Pods Manifest.lock */,
 				8140511B22396BC100EF4E36 /* Sources */,
 				8140511C22396BC100EF4E36 /* Frameworks */,
 				8140511D22396BC100EF4E36 /* Resources */,
+				64681B65FBB9DFBEFAB39C6C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +235,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		64681B65FBB9DFBEFAB39C6C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Seena-Task/Pods-Seena-Task-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Seena-Task/Pods-Seena-Task-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA88D7E3F8FB23E9862B524D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Seena-Task-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8140511B22396BC100EF4E36 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8140512522396BC100EF4E36 /* ViewController.swift in Sources */,
+				81B3C5C322398224007E29CB /* UIImageViewX.swift in Sources */,
+				81B3C5BA22398223007E29CB /* FancyImage.swift in Sources */,
+				81D79A5922396EB300F09D91 /* URLs.swift in Sources */,
+				81B3C5C422398224007E29CB /* UIViewX.swift in Sources */,
 				8140512322396BC100EF4E36 /* AppDelegate.swift in Sources */,
+				81D79A62223970AA00F09D91 /* ResponseError.swift in Sources */,
+				81D79A5722396E9F00F09D91 /* apiManager.swift in Sources */,
+				81B3C5A8223981D7007E29CB /* TableViewCell.swift in Sources */,
+				81D79A6522397B0700F09D91 /* HelpEx.swift in Sources */,
+				81B3C5BD22398223007E29CB /* UIButtonX.swift in Sources */,
+				81D79A5F22396FCA00F09D91 /* Response.swift in Sources */,
+				81B3C5BE22398223007E29CB /* UILabelX.swift in Sources */,
+				81D79A5D22396FCA00F09D91 /* Response_Base.swift in Sources */,
+				8140513922396D3C00EF4E36 /* ViewControllerEx.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,10 +441,11 @@
 		};
 		8140513222396BC300EF4E36 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 682AE0DDEC37A1210428A59D /* Pods-Seena-Task.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RBCQ2F8DC4;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Seena-Task/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -298,10 +460,11 @@
 		};
 		8140513322396BC300EF4E36 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00ECE765F7B56002919F1ECC /* Pods-Seena-Task.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RBCQ2F8DC4;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Seena-Task/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

@@ -8,23 +8,36 @@
 
 import UIKit
 
-class HelpEx: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+extension ViewController{
+    
+     func createLabelNoResult(){
+        // CGRectMake has been deprecated - and should be let, not var
+        let label = UILabel(frame: CGRect(x: 0, y: 0, width: self.view.frame.width , height: 60 ))
+        
+        // you will probably want to set the font (remember to use Dynamic Type!)
+        label.font = UIFont.preferredFont(forTextStyle: .headline)
+        
+        // and set the text color too - remember good contrast
+        label.textColor = .black
+        
+        // may not be necessary (e.g., if the width & height match the superview)
+        // if you do need to center, CGPointMake has been deprecated, so use this
+        label.center = CGPoint(x: self.view.frame.width / 2.0, y: self.view.frame.height / 2.0)
+        
+        // this changed in Swift 3 (much better, no?)
+        label.textAlignment = .center
+        label.font = label.font.withSize(18)
+            label.text = "No Data."
+    
+                self.view.addSubview(label)
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func DisAppearMessage(message: String){
+        let alert = UIAlertController(title: "Alert", message: message , preferredStyle: UIAlertController.Style.alert)
+        self.present(alert, animated: true, completion: nil)
+        let when = DispatchTime.now() + 1
+        DispatchQueue.main.asyncAfter(deadline: when){
+            alert.dismiss(animated: true, completion: nil)
+        }
     }
-    */
-
 }

@@ -12,7 +12,7 @@ For support, please feel free to contact me at https://www.linkedin.com/in/syeda
 */
 
 import Foundation
-struct Json4Swift_Base : Codable {
+struct Response_Base : Codable {
 	let responseError : ResponseError?
 	let response : [Response]?
 
@@ -24,8 +24,8 @@ struct Json4Swift_Base : Codable {
 
 	init(from decoder: Decoder) throws {
 		let values = try decoder.container(keyedBy: CodingKeys.self)
-		responseError = try values.decodeIfPresent(ResponseError.self, forKey: .ResponseError)
-		response = try values.decodeIfPresent([Response].self, forKey: .Response)
+        responseError = try values.decodeIfPresent(ResponseError.self, forKey: .responseError)
+        response = try values.decodeIfPresent([Response].self, forKey: .response)
 	}
 
 }

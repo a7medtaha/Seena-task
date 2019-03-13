@@ -15,7 +15,6 @@ import Foundation
 struct ResponseError : Codable {
 	let status : Bool?
 	let code : Int?
-	let validation : Validation?
 	let desc : String?
 	let token : String?
 
@@ -23,7 +22,6 @@ struct ResponseError : Codable {
 
 		case status = "status"
 		case code = "code"
-		case validation = "validation"
 		case desc = "desc"
 		case token = "token"
 	}
@@ -32,7 +30,7 @@ struct ResponseError : Codable {
 		let values = try decoder.container(keyedBy: CodingKeys.self)
 		status = try values.decodeIfPresent(Bool.self, forKey: .status)
 		code = try values.decodeIfPresent(Int.self, forKey: .code)
-		validation = try values.decodeIfPresent(Validation.self, forKey: .validation)
+	
 		desc = try values.decodeIfPresent(String.self, forKey: .desc)
 		token = try values.decodeIfPresent(String.self, forKey: .token)
 	}

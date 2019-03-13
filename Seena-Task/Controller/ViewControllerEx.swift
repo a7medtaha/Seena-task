@@ -8,23 +8,29 @@
 
 import UIKit
 
-class ViewControllerEx: UIViewController {
+extension ViewController: UITableViewDelegate, UITableViewDataSource{
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return collectionData.count
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "TableViewCell", for: indexPath) as! TableViewCell
+        cell.configure(false, "\(collectionData[indexPath.row].min_fees ?? 0) EGP", "\(collectionData[indexPath.row].followers ?? 0)", "\(collectionData[indexPath.row].speciality ?? "")",  "\(collectionData[indexPath.row].name ?? "" )",  "\(collectionData[indexPath.row].image ?? "")")
+        
+        return cell
     }
-    */
-
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 120
+    }
+    func tableView(_ tableView: UITableView, estimatedHeightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 120
+    }
+    func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
+        if indexPath.row + 1 == collectionData.count && moreData {
+            getAllDoctors()
+        }
+    }
+    
 }
